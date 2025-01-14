@@ -1,0 +1,28 @@
+{
+  "name": "op-report",
+  "version": "1.0.0",
+  "description": "Оперативный отчет",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishaltbecome/op-report.git"
+  },
+  "author": "Nikolay Ivanchenko <ishaltbecome@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ishaltbecome/op-report/issues"
+  },
+  "homepage": "https://github.com/ishaltbecome/op-report#readme",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "sequelize": "^6.37.5",
+    "serve-favicon": "^2.5.0",
+    "sqlite3": "^5.1.7"
+  }
+}
